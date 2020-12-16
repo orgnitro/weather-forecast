@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./css/styles.css" rel="stylesheet">
+  <link href="./css/weather-icons.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB07jkJ8YARgs-e2mG0Te-R0dR9AuQRga8&libraries=places"></script>  
+  <script defer src="script.js"></script>
+  <title>Weather App</title>
+</head>
+<body>
+  <div class="wrapper">
+    <main class="content">
+      <section class="general-info">
+        <div class="location">
+          <span class="place"><span class="material-icons">location_on</span>Place</span>
+        </div>
+        <div class="icon-and-status">
+          <div class="icon"><i class="wi wi-day-sunny"></i></div>
+          <div class="status">Enter A Location <br><span>To Check The Weather</span></div>
+        </div>
+        <div class="temp-wrapper">
+          <div class="temperature">0&#8451;</div>
+          <div class="feels-like"></div>
+        </div>
+      </section>
+      <section class="detail-section">
+        <div class="detail">
+          <div class="wind-title"></div>
+          <div class="wind-value"></div>
+        </div>
+        <div class="detail">
+          <div class="humidity-title"></div>
+          <div class="humidity-value"></div>
+        </div>
+      </section>
+      <section class="search-container">
+        <input type="text" placeholder="Enter Location">
+      </section>
+      <section class="forecast-container">
+        <button class="forecast-btn" type="button">Weather For Next 7 Days</button>
+        <div class="forecast-content">
+          <div class="forecast-item" id="day1">
+            <div class="item-header"></div>
+            <div class="item-info"></div>
+          </div>
+          <div class="forecast-item" id="day2">
+            <div class="item-header"></div>
+            <div class="item-info"></div>
+          </div>
+          <div class="forecast-item" id="day3">
+            <div class="item-header"></div>
+            <div class="item-info"></div>
+          </div>
+          <div class="forecast-item" id="day4">
+            <div class="item-header"></div>
+            <div class="item-info"></div>
+          </div>
+          <div class="forecast-item" id="day5">
+            <div class="item-header"></div>
+            <div class="item-info"></div>
+          </div>
+          <div class="forecast-item" id="day6">
+            <div class="item-header"></div>
+            <div class="item-info"></div>
+          </div>
+          <div class="forecast-item" id="day7">
+            <div class="item-header"></div>
+            <div class="item-info"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <footer class="powered"><span>Powered by <a href="https://openweathermap.org">Openweathermap</a></span></footer>
+</body>
+</html>
