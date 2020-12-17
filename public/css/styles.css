@@ -220,3 +220,86 @@ main {
   right: 3%;
   top: 95%;
 }
+
+@media screen and (max-width: 830px) {
+  .wrapper {
+    padding: 10px;
+  }
+
+  .item-header {
+    padding: 10px 5px;
+    font-size: 1.5vw;
+  }
+
+  .location, .location .place, .temp-wrapper {
+    height: 100px;
+  }
+
+  .general-info {
+    padding: 0;
+  }
+
+  .location {
+    padding-left: 15px;
+  }
+
+  .detail-section {
+    margin-top: 20px
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    padding: 10px;
+  }
+
+  .location, .location .place, .temp-wrapper {
+    height: 50px;
+  }
+
+  .search-container input {
+    margin-top: 20px;
+  }
+
+  .forecast-container {
+    padding: 0 15px;
+    margin: 15px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .active {
+    height: 95px;
+  }
+
+  .icon-and-status {
+    justify-content: center;
+    height: 50px;
+  }
+
+  .icon {
+    margin: 0;
+  }
+
+  .wi {
+    padding: 10px 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .active {
+    height: 50px;
+  }
+
+  .icon {
+    margin: 0;
+  }
+
+  .item-header {
+    padding: 5px;
+  }
+
+  .item-info .wi {
+    padding: 5px 0;
+  }
+}
