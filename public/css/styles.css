@@ -221,6 +221,7 @@ main {
   top: 95%;
 }
 
+
 @media screen and (max-width: 830px) {
   .wrapper {
     padding: 10px;
@@ -248,6 +249,7 @@ main {
   }
 }
 
+
 @media screen and (max-width: 600px) {
   .wrapper {
     padding: 10px;
@@ -267,6 +269,7 @@ main {
   }
 }
 
+
 @media screen and (max-width: 600px) {
   .active {
     height: 95px;
@@ -285,6 +288,7 @@ main {
     padding: 10px 0;
   }
 }
+
 
 @media screen and (max-width: 350px) {
   .active {
