@@ -8,7 +8,7 @@ The application able to:
 ![screen1](https://github.com/orgnitro/weather-forecast/blob/master/public/screenshots/screen1.jpg)
 
 
-2) show detailed forecast for current day;
+2) Show detailed forecast for current day using OpenWeatherMap API;
 
 ![screen2](https://github.com/orgnitro/weather-forecast/blob/master/public/screenshots/screen2.jpg)
 
